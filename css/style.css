@@ -1,0 +1,72 @@
+.container{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+	
+}
+.navbar {
+	background-color: skyblue;
+	border: 0;
+	border-radius: 0;
+}
+.fixed-position {
+		position: fixed !important;
+		width: 300px;
+}
+.relative-position {
+		position: relative;
+		padding-left: 350px;
+		width: 1000px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+.row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {https://www.w3schools.com/bootstrap/tryit.asp?filename=trybs_temp_blog&stacked=h#section3
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+
+	
+.text-center {
+	text-align: center;
+}
+.img-position {
+	padding-left: 10%;
+}
+.back{
+	background-color: #f1f1f1;
+}
+.pushdown {
+	margin-top: 100px;
+}
+.container-fluid {
+	width: 100%
+}
+
+#welcome{
+	background-image: url('../img/01.jpg');
+	background-position: center;
+	text-align: center;
+	min-height: 750px;
+	margin-top: 50px;
+	width: 100%;
+}
+#welcome h1{
+	color: blue;
+	font-size: 50px;
+	padding-top: 250px;
+	line-height: 1.6em;
+}
+.imgpading{
+	padding-top: 10px;
+}
